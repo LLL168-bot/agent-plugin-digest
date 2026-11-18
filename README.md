@@ -6,7 +6,6 @@ renders a Word digest in the fixed format **name + introduction + link**.
 
 - **Batch continuation**: a second run skips what was already delivered and outputs the
   next items in the same deterministic ranking.
-- No machine-specific paths, usernames, internal addresses, or credentials.
 - Works on Windows, macOS, and Linux.
 
 ## Features
