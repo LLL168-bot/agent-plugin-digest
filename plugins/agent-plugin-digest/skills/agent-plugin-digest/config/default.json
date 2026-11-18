@@ -1,0 +1,50 @@
+{
+  "github": {
+    "topics": ["agent-plugin", "claude-code-plugin", "agent-skills", "claude-skills"],
+    "sort": "stars",
+    "min_stars": 50,
+    "updated_within_days": 365,
+    "exclude_forks": true,
+    "exclude_archived": true,
+    "require_description": true,
+    "include_keywords": [],
+    "exclude_keywords": [],
+    "candidate_limit": 60,
+    "final_count": 10
+  },
+  "bilibili": {
+    "keywords": ["agent 插件", "agent skill", "Claude Code 插件", "dsh 插件"],
+    "order": "pubdate",
+    "candidate_limit": 60,
+    "video_info_limit": 40,
+    "final_count": 10,
+    "request_delay_seconds": 2.5,
+    "retries": 3,
+    "fallback_error_rate": 0.3,
+    "exclude_title_keywords": ["个必装", "推荐3款", "推荐几款", "榜单", "排行榜", "合集", "个插件"],
+    "title_include_keywords": [],
+    "single_plugin_only": true,
+    "require_github_repo": false,
+    "prefer_github_repo": true
+  },
+  "history": {
+    "enabled": true,
+    "state_file": "~/.agent-plugin-digest/history.json"
+  },
+  "output": {
+    "dir": "output",
+    "filename_pattern": "{date}_Agent插件Skill清单_第{batch}批_共{total}条.docx",
+    "subtitle_pattern": "第 {batch} 批 ｜ 共 {total} 条 ｜ 采集日期：{date}",
+    "intro_min_chars": 40,
+    "intro_max_chars": 120,
+    "include_data_note": true,
+    "language": "zh-CN",
+    "font": "",
+    "labels": {
+      "data_note": "数据说明：",
+      "intro": "项目介绍：",
+      "link": "项目链接：",
+      "notes": "备注："
+    }
+  }
+}

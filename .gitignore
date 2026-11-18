@@ -1,0 +1,16 @@
+# generated artifacts
+output/
+.tmp/
+*.docx
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

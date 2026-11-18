@@ -1,0 +1,13 @@
+{
+  "name": "agent-plugin-digest-marketplace",
+  "owner": {
+    "name": "agent-plugin-digest contributors"
+  },
+  "plugins": [
+    {
+      "name": "agent-plugin-digest",
+      "source": "./plugins/agent-plugin-digest",
+      "description": "Collect the latest GitHub agent plugins and Bilibili DSH plugins, verify links, and generate a Word digest."
+    }
+  ]
+}
