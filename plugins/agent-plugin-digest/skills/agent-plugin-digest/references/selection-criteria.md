@@ -1,6 +1,6 @@
 # 选取条件与批次延续说明
 
-报告范围：**GitHub 与 B 站上的 Agent 插件 / Skill**（不再限定 DSH）。
+报告范围：**GitHub 与 B 站上的 Agent 插件 / Skill**。
 所有条件都可在 `config/default.json` 中修改，或用 `--config` 传入局部覆盖文件。
 
 ## 一、GitHub

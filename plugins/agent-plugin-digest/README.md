@@ -4,8 +4,6 @@ A Claude Code plugin (skill) that collects the latest **agent plugins and skills
 GitHub and Bilibili**, ranks them with configurable criteria, verifies their project
 links, and renders a Word digest in the fixed format **name + introduction + link**.
 
-- Covers agent plugins/skills generally, not just DSH (DSH is one Bilibili keyword).
-- No DeepSeek model-release research.
 - Batch continuation: a second run skips what was already delivered and outputs the next
   items in the same ranking.
 - No machine-specific paths, usernames, internal addresses, or credentials.
