@@ -1,9 +1,9 @@
 {
   "name": "agent-plugin-digest",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Collect the latest agent plugins and skills from GitHub and Bilibili, verify links, generate a Word digest, with batch continuation.",
   "author": {
-    "name": "agent-plugin-digest contributors"
+    "name": "LLL168-bot"
   },
   "license": "MIT",
   "keywords": [

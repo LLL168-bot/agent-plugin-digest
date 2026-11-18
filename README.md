@@ -133,7 +133,7 @@ No exact equivalent was found; the closest is Firecrawl's `last30flames`.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. Copyright (c) 2026 LLL168-bot. See [LICENSE](LICENSE).
 
 ---
 
